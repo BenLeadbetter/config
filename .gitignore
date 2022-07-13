@@ -1,0 +1,6 @@
+*
+!.config/kitty/kitty.conf
+!.gitignore
+!.gitignore_global
+!.vimrc
+!.zshrc
