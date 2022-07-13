@@ -14,6 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'peterhoeg/vim-qml'
 Plugin 'groovy.vim'
+Plugin 'ziglang/zig.vim'
 call vundle#end()
 filetype plugin indent on    " required for vundle
 
