@@ -1,7 +1,6 @@
 set nocompatible " be iMproved, required for vundle
 filetype off " required for vundle
 set number
-syntax on
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -16,5 +15,6 @@ Plugin 'peterhoeg/vim-qml'
 Plugin 'groovy.vim'
 Plugin 'ziglang/zig.vim'
 call vundle#end()
+syntax enable
 filetype plugin indent on    " required for vundle
 
