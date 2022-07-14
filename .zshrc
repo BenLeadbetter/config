@@ -15,8 +15,12 @@ source $ZSH/oh-my-zsh.sh
 # custom aliases
 alias ls='exa'
 
+# starship
 eval "$(starship init zsh)"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# PATH exports
+export PATH="/home/ben/code/zig:$PATH"
