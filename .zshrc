@@ -5,6 +5,7 @@ CASE_SENSITIVE="true"
 zstyle ':omz:update' mode auto      # update automatically without asking
 COMPLETION_WAITING_DOTS="true"
 plugins=(
+  docker
   git
   rust
   vscode
