@@ -15,6 +15,7 @@ source $ZSH/oh-my-zsh.sh
 
 # custom aliases
 alias ls='exa'
+alias vim='nvim'
 
 # starship
 eval "$(starship init zsh)"
