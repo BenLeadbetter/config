@@ -1,6 +1,8 @@
-.DS_Store
-.vscode
-.cache
 *.swp
+.DS_Store
+.cache
+.nvim
 .venv
+.vscode
 build-code
+compile_commands.json
