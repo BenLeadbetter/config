@@ -26,3 +26,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # PATH exports
 export PATH="/Users/ben.leadbetter/code/scripts:$PATH"
+export PATH="/Users/ben.leadbetter/code/NIBuild/3rdparty/Qt/Qt-6.4.2-macx-clang-static/bin:$PATH"
