@@ -31,3 +31,4 @@ export PATH="/Users/ben.leadbetter/Library/Python/3.9/bin:$PATH"
 
 # env
 export LUA_PATH=".nvim/?.lua;$LUA_PATH"
+export CMAKE_EXPORT_COMPILE_COMMANDS=1
