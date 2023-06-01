@@ -1,0 +1,26 @@
+layout {
+    tab name="mas" {
+        pane split_direction="horizontal" {
+            pane split_direction="vertical" {
+                pane {
+                    command "nvim"
+                    cwd "/Users/ben.leadbetter/code/NIBuild/maschine/maschine"
+                    size "62%"
+                }
+                pane {
+                    cwd "/Users/ben.leadbetter/code/NIBuild/maschine/maschine"
+                    focus true
+                    name "repo"
+                }
+                size "62%"
+            }
+            pane {
+                cwd "/Users/ben.leadbetter/code/NIBuild/maschine/build-code"
+                name "build"
+            }
+        }
+        pane size=1 borderless=true {
+            plugin location="zellij:compact-bar"
+        }
+    }
+}

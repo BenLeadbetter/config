@@ -1,0 +1,26 @@
+layout {
+    tab name="nilibs" {
+        pane split_direction="horizontal" {
+            pane split_direction="vertical" {
+                pane {
+                    command "nvim"
+                    cwd "/Users/ben.leadbetter/code/NIBuild/nilibs/nilibs"
+                    size "62%"
+                }
+                pane {
+                    cwd "/Users/ben.leadbetter/code/NIBuild/nilibs/nilibs"
+                    focus true
+                    name "repo"
+                }
+                size "62%"
+            }
+            pane {
+                cwd "/Users/ben.leadbetter/code/NIBuild/nilibs/build-code"
+                name "build"
+            }
+        }
+        pane size=1 borderless=true {
+            plugin location="zellij:compact-bar"
+        }
+    }
+}
